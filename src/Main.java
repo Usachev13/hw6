@@ -2,13 +2,13 @@ public class Main {
     public static void main(String[] args) {
         /* task1 */
         System.out.println("Задача 1");
-        for ( int i = 1; i <= 10; i += 1){
+        for ( int i = 1; i <= 10; i++){
             System.out.println("итерация цикла " + i);
         }
 
         /* task2 */
         System.out.println("Задача 2");
-        for ( int i = 10; i >= 1; i -= 1) {
+        for ( int i = 10; i >= 1; i--) {
             System.out.println("итерация цикла " + i);
         }
 
@@ -20,7 +20,7 @@ public class Main {
 
         /* task4 */
         System.out.println("Задача 4");
-        for ( int i = 10; i >= -10; i -= 1) {
+        for ( int i = 10; i >= -10; i--) {
             System.out.println("итерация цикла " + i);
         }
 
@@ -40,6 +40,14 @@ public class Main {
         System.out.println("Задача 7");
         for (int i = 1; i <= 512; i *= 2){
             System.out.println(i);
+        }
+
+        /* task8 */
+        System.out.println("Задача 8");
+        int moneyBox = 0;
+        for (int i = 1; i <= 12; i++){
+            moneyBox += 29000;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + moneyBox + " рублей");
         }
     }
 }
