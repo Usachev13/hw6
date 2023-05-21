@@ -9,5 +9,10 @@ public class Main {
         for ( int i = 10; i >= 1; i -= 1) {
             System.out.println("итерация цикла " + i);
         }
+
+        /* task3 */
+        for ( int i = 0; i <= 17; i += 2) {
+            System.out.println("итерация цикла " + i);
+        }
     }
 }
