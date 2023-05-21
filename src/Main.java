@@ -62,10 +62,10 @@ public class Main {
         }
 
         /* task10 */
+        System.out.println("Задача 10");
         int number = 2;
         for (int i = 1; i <= 10; i++){
             System.out.println(number + " * " + i + " = " + number * i);
         }
-
     }
 }
