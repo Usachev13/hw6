@@ -49,5 +49,16 @@ public class Main {
             moneyBox += 29000;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + moneyBox + " рублей");
         }
+
+        /* task9 */
+        System.out.println("Задача 9");
+        int contribution = 29000;
+        float total = 0;
+        for (int i = 1; i <= 12; i++){
+            total += contribution;
+            float percent = total / 100;
+            total = total + percent;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+        }
     }
 }
